@@ -20,6 +20,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet weak var DoItButton: UIButton!
 
+    @IBAction func Click(_ sender: AnyObject) {
+        NSLog("click")
+    }
+    @IBAction func Touch(_ sender: AnyObject) {
+        NSLog("Touch")
+    }
 }
 
