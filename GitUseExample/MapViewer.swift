@@ -10,4 +10,8 @@ import Foundation
 
 class MapViewer: NSObject {
     
+    func FakeMethod(iParam: NSInteger) -> Void {
+        NSLog("FAKE")
+    }
+    
 }
