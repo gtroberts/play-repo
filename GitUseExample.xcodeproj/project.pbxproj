@@ -14,6 +14,7 @@
 		EFD7A51A1D8AA61E00453B0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD7A5181D8AA61E00453B0E /* LaunchScreen.storyboard */; };
 		EFD7A5251D8AA61E00453B0E /* GitUseExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD7A5241D8AA61E00453B0E /* GitUseExampleTests.swift */; };
 		EFD7A5301D8AA61F00453B0E /* GitUseExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD7A52F1D8AA61F00453B0E /* GitUseExampleUITests.swift */; };
+		EFD7A53E1D8BF75C00453B0E /* MapViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD7A53D1D8BF75C00453B0E /* MapViewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EFD7A52B1D8AA61E00453B0E /* GitUseExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitUseExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD7A52F1D8AA61F00453B0E /* GitUseExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUseExampleUITests.swift; sourceTree = "<group>"; };
 		EFD7A5311D8AA61F00453B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD7A53D1D8BF75C00453B0E /* MapViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				EFD7A5161D8AA61E00453B0E /* Assets.xcassets */,
 				EFD7A5181D8AA61E00453B0E /* LaunchScreen.storyboard */,
 				EFD7A51B1D8AA61E00453B0E /* Info.plist */,
+				EFD7A53D1D8BF75C00453B0E /* MapViewer.swift */,
 			);
 			path = GitUseExample;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFD7A53E1D8BF75C00453B0E /* MapViewer.swift in Sources */,
 				EFD7A5121D8AA61D00453B0E /* ViewController.swift in Sources */,
 				EFD7A5101D8AA61D00453B0E /* AppDelegate.swift in Sources */,
 			);
